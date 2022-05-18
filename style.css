@@ -1,0 +1,74 @@
+/** 
+ * A very basic CSS reset:
+ * More about CSS resets: https://meyerweb.com/eric/tools/css/reset/
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: #F3F0D7;
+}
+
+/*body:hover {
+  background-color: #a2defe;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}*/
+
+/** 
+ * Card sizing and positioning.
+ * Don't mess with this!
+ */
+.card {
+  width: 300px;
+  height: 540px;
+  margin: 40px auto 0 auto;
+}
+
+/** 
+ * Just some styling to make the card visible.
+ * Feel free to change this!
+ */
+
+.card {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 50px rgb(153, 153, 153);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card .content {
+  padding: 15px;
+}
+
+button {
+  border: 0px;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 10px 0px 0px;
+}
+
+.primary {
+  background-color: #FED2AA;
+}
+
+.secondary {
+  background-color: #CEE5D0;
+}
